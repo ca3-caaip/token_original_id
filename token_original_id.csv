@@ -14,3 +14,8 @@ b5a385b2-4599-24be-adb9-0797c565e906,cro,native token for crypto.org,osmosis,ibc
 f12c88a1-b54d-d867-9d8f-78fa8960de4a,regen,native token for regen network,osmosis,ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076
 85f9ab60-60c7-9a98-bbb3-bba925452953,dvpn,native token for sentinel,osmosis,ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84
 8ad58d58-f143-3b82-f011-e43eb6c14cfb,iris,native token for irisnet,osmosis,ibc/7C4D60AA95E5A7558B0A364860979CA34B7FF8AAF255B87AF9E879374470CEC0
+265cf8a8-87de-4ee3-9ac0-292df9b8d52d,kava,native token for kava,kava,
+99f7ea19-5353-4d73-b495-1a2926683c42,hard,governance token of kava lend,kava,hard
+9b403ec9-c354-4ce5-813c-30a4b51452b1,swp,governance token of kava swap,kava,swp
+b69f70ae-3e8d-4dfe-8345-0c264d0ea3c1,busd,doller peg token by binance,kava,busd
+99c9f3d5-e6cc-4fff-b782-a362bdb70d5a,usdx,doller stable token on kava,kava,usdx
