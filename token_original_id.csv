@@ -36,7 +36,8 @@ f7399301-2975-4821-a0a0-f668faf42285,ltc,native token for litecoin,litecoin,ltc,
 0f47dc55-7e18-4c3a-8ed9-d1f195c029ad,mrk,native token for maker,maker,mrk,TRUE
 37f8de58-aa57-4967-a3c3-a936793859ae,boba,native token for boba,boba,boba,TRUE
 e254d6ca-cb9f-432e-9190-3ca6d899fc48,enj,native token for enjin,enjin,enj,TRUE
-87dae675-c183-c452-fffa-ac519b71df01,bnb,native token for bsc,bsc,0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c,TRUE
+87dae675-c183-c452-fffa-ac519b71df01,bnb,native token for bsc,bsc,bnb,TRUE
+87dae675-c183-c452-fffa-ac519b71df01,bnb,wrapped bnb,bsc,0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c,
 5408d890-493d-bbc9-57cd-cfd013fefdb8,eth,Binance-Peg Ethereum Token,bsc,0x2170Ed0880ac9A755fd29B2688956BD959F933F8,
 547faa5d-8c2b-8964-9053-2c26eb32cd18,cake,PancakeSwap Token,bsc,0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82,
 e2253d68-195b-ca1d-3830-89a2796acd3d,btcb,Binance-Peg BTC Token,bsc,0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c,
