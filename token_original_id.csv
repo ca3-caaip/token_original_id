@@ -2,18 +2,29 @@ uti,platform,original_id,description,primary
 atom/cosmos,osmosis,ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2,native token for cosmos,
 atom/cosmos,bsc,0x0Eb3a705fc54725037CC9e008bDede697f62F335,native token for cosmos,
 atom/cosmos,cosmos,atom,native token for cosmos,TRUE
-juno/juno,osmosis,ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED,native token for juno,TRUE
-luna/terra,osmosis,ibc/0EF15DF2F02480ADE0BB6E85D9EBB5DAEA2836D3860E9F97F9AADE4F57A31AA0,native token for terra,TRUE
-ust/terra,osmosis,ibc/BE1BB42D4BE3C30D50B68D7C41DB4DFCE9678E8EF8C539F6E6A9345048894FCC,doller peg token on terra,TRUE
+juno/juno,juno,juno,native token for juno,TRUE
+juno/juno,osmosis,ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED,native token for juno,
+luna/terra,terra,terra,native token for juno,TRUE
+luna/terra,osmosis,ibc/0EF15DF2F02480ADE0BB6E85D9EBB5DAEA2836D3860E9F97F9AADE4F57A31AA0,native token for terra,
+ust/terra,terra,ust,doller peg token on terra,TRUE
+ust/terra,osmosis,ibc/BE1BB42D4BE3C30D50B68D7C41DB4DFCE9678E8EF8C539F6E6A9345048894FCC,doller peg token on terra,
 osmo/osmosis,osmosis,osmo,native token for osmosis,TRUE
+umee/umee,umee,umee,Umee is a cross chain DeFi hub that interconnects between blockchains,TRUE
 umee/umee,osmosis,ibc/67795E528DF67C5606FC20F824EA39A6EF55BA133F4DC79C90A8C47A0901E17C,Umee is a cross chain DeFi hub that interconnects between blockchains,
+scrt/secret,secret,scrt,Native token for secret network,TRUE
 scrt/secret,osmosis,ibc/0954E1C28EB7AF5B72D24F3BC2B47BBB2FDF91BDDFD57B74B99E133AED40972A,Native token for secret network,
-cro/crypto.com,osmosis,ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1,native token for crypto.org,
+cro/cro,cro,cro,native token for crypto.org,TRUE
+cro/cro,osmosis,ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1,native token for crypto.org,
+xrpt/persistence,persistence,xrpt,native token for Persistence,TRUE
 xrpt/persistence,osmosis,ibc/A0CC0CF735BFB30E730C70019D4218A1244FF383503FF7579C9201AB93CA9293,native token for Persistence,
+akt/akash,akash,akt,native token for akash,TRUE
 akt/akash,osmosis,ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4,native token for akash,
+regen/regen,regen,regen,native token for regen network,TRUE
 regen/regen,osmosis,ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076,native token for regen network,
+dvpn/sentinel,sentinel,dvpn,native token for sentinel,TRUE
 dvpn/sentinel,osmosis,ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84,native token for sentinel,
-iris/irisnet,osmosis,ibc/7C4D60AA95E5A7558B0A364860979CA34B7FF8AAF255B87AF9E879374470CEC0,native token for irisnet,
+iris/iris,iris,iris,native token for irisnet,TRUE
+iris/iris,osmosis,ibc/7C4D60AA95E5A7558B0A364860979CA34B7FF8AAF255B87AF9E879374470CEC0,native token for irisnet,
 kava/kava,kava,kava,native token for kava,TRUE
 hard/kava,kava,hard,governance token of kava lend,TRUE
 swp/kava,kava,swp,governance token of kava swap,TRUE
