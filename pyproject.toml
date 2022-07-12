@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "token-original-id"
+version = "0.1.0"
+description = ""
+authors = ["Keisuke Iwamura <i.ksk0601@gmail.com>"]
+readme = "README.md"
+packages = [{include = "token_original_id"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pycoingecko = "^2.2.0"
+pandas = "^1.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
