@@ -4,6 +4,8 @@ from pycoingecko import CoinGeckoAPI
 import pandas as pd
 import time
 import warnings
+import requests
+import json
 
 
 def dataframe_difference(df1, df2, which=None):
@@ -19,18 +21,32 @@ def dataframe_difference(df1, df2, which=None):
 __COINGECKO_API_URL_BASE = "https://pro-api.coingecko.com/api/v3/"
 warnings.simplefilter('ignore', FutureWarning)
 cg = CoinGeckoAPI(__COINGECKO_API_URL_BASE)
-coin_list_df = pd.read_csv("coinlist_latest.csv", na_filter=False)
+mini_coin_list_df = pd.read_csv("coin_list.csv", na_filter=False)
 token_original_table_columns = ["uti", "platform", "original_id", "description", "primary"]
 token_original_table_df = pd.DataFrame(index=[], columns=token_original_table_columns)
 count = 1
-for data in coin_list_df.itertuples():
+timeout_coins = []
+value_error_coins = []
+other_errors = []
+other_errorslug = []
+for data in mini_coin_list_df.itertuples():
     if data.symbol == "":
         continue
     coingecko_slug = data.id
     try:
-        coin_data = cg.get_coin_by_id(id=coingecko_slug, x_cg_pro_api_key==ここにapi_key)
-    except TimeoutError:
+        coin_data = cg.get_coin_by_id(id=coingecko_slug, x_cg_pro_api_key="ここにAPIKEY")
+    except requests.exceptions.ReadTimeout:
         print(coingecko_slug)
+        timeout_coins.append(coingecko_slug)
+        continue
+    except ValueError:
+        print("Value Error, slug: {}".format(coingecko_slug))
+        value_error_coins.append(coingecko_slug)
+        continue
+    except Exception as e:
+        print("other Exception, slug:{}".format(coingecko_slug))
+        other_errors.append(e)
+        other_errorslug.append(coingecko_slug)
         continue
     slug_for_uti = coin_data["id"]
     uti = "{x}/{y}".format(x=coin_data["symbol"], y=slug_for_uti)
@@ -53,6 +69,8 @@ for data in coin_list_df.itertuples():
     count = count +1
     if count % 50 == 0:
         print(count)
-token_original_table_df.to_csv("mini_original_table.csv", index=False)
-print(token_original_table_df)
+token_original_table_df.to_csv("original_table.csv", index=False)
+result = {"timeout": timeout_coins, "value_error": value_error_coins, "other": [other_errors, other_errorslug]}
+with open('result.json', 'w') as f:
+    json.dump(result, f, indent=4)
 
