@@ -124,7 +124,9 @@ bnt,,bnt
 bnt,ethereum,0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c
 bnx,bsc,0x8c851d1a123ff703bd1f9dabe631b69902df5f97
 bnx,,bnx
-boba,boba,boba
+boba,,boba
+boba,ethereum,0x42bbfa2e77757c645eeaad1655e0911a7553efbc
+boba,boba,0xa18bF3994C0Cc6E3b63ac420308E5383f53120D7
 bond,,bond
 bond,ethereum,0x0391d2021f89dc339f60fff84546ea23e337750f
 bsw,,bsw
@@ -708,6 +710,9 @@ usdp,,usdp
 usdp,ethereum,0x8e870d67f660d95d5be530380d0ec0bd388289e1
 usdp,bsc,0xb7f8cd00c5a06c0537e2abff0b58033d02e5e094
 usdt,,usdt
+usdt,ethereum,0xdAC17F958D2ee523a2206206994597C13D831ec7
+usdt,bsc,0x55d398326f99059fF775485246999027B3197955
+usdt,polygon,0xc2132D05D31c914a87C6611C10748AEb04B58e8F
 usdx,kava,usdx
 ust,terra,ust
 ust,osmosis,ibc/BE1BB42D4BE3C30D50B68D7C41DB4DFCE9678E8EF8C539F6E6A9345048894FCC
@@ -750,7 +755,8 @@ xem,,xem
 xlm,stellar,xlm
 xmr,,xmr
 xno,,xno
-xrp,ripple,xrp
+xrp,,xrp
+xrp,bsc,0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE
 xrpt,persistence,xrpt
 xrpt,osmosis,ibc/A0CC0CF735BFB30E730C70019D4218A1244FF383503FF7579C9201AB93CA9293
 xtz,bsc,0x16939ef78684453bfdfb47825f8a5f714f12623a
