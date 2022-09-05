@@ -755,10 +755,10 @@ xem,,xem
 xlm,stellar,xlm
 xmr,,xmr
 xno,,xno
+xprt,osmosis,ibc/A0CC0CF735BFB30E730C70019D4218A1244FF383503FF7579C9201AB93CA9293
+xprt,persistence,xprt
 xrp,,xrp
 xrp,bsc,0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE
-xrpt,osmosis,ibc/A0CC0CF735BFB30E730C70019D4218A1244FF383503FF7579C9201AB93CA9293
-xrpt,persistence,xrpt
 xtz,,xtz
 xtz,bsc,0x16939ef78684453bfdfb47825f8a5f714f12623a
 xvg,,xvg
