@@ -21,4 +21,4 @@ jobs:
           key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
       - run: poetry config virtualenvs.in-project true && poetry install
         if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
-      - run: poetry run pytest -v --cov=token_original_id
+      - run: poetry run pytest
