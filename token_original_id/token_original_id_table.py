@@ -9,7 +9,6 @@ class TokenOriginalIdTable:
     def __init__(self):
         csv_file = Path(path.join(path.dirname(__file__), "data.csv"))
         with csv_file.open() as content:
-            print(content)
             csv_reader = csv.DictReader(content.read().strip().splitlines())
             token_original_id_table = [row for row in csv_reader]
             self.token_original_id_table = token_original_id_table
