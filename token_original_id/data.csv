@@ -27,6 +27,7 @@ agld,,agld
 agld,ethereum,0x32353a6c91143bfd6c7d363b546e62a9a2489a20
 aion,,aion
 akt,akash,akt
+akt,cosmos,uakt
 akt,osmosis,ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4
 alcx,,alcx
 alcx,ethereum,0xdbdb4d16eda451d0503b854cf79d55697f90c8df
@@ -68,8 +69,9 @@ astr,,astr
 ata,,ata
 ata,ethereum,0xa2120b9e674d3fc3875f415a7df52e382f141225
 ata,polygon,0x0df0f72ee0e5c9b7ca761ecec42754992b2da5bf
+atolo,cosmos,uatolo
 atom,bsc,0x0Eb3a705fc54725037CC9e008bDede697f62F335
-atom,cosmos,atom
+atom,cosmos,uatom
 atom,osmosis,ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2
 auction,,auction
 auction,bsc,0x48dc0190df5ece990c649a7a07ba19d3650a9572
@@ -102,6 +104,8 @@ bat,bat,bat
 bch,bitbank,bcc
 bch,bitcoincash,bch
 bcn,,bcn
+bcna,cosmos,ubcna
+bcre,cosmos,ubcre
 beam,,beam
 bel,,bel
 bel,bsc,0x8443f091997f06a61670b735ed92734f5628692f
@@ -140,6 +144,7 @@ btcst,,btcst
 btcst,bsc,0x78650b139471520656b9e7aa7a5e9276814a38e9
 btg,,btg
 bts,,bts
+btsg,cosmos,ubtsg
 btt,,btt
 btt,bsc,0x352cb5e19b12fc216548a2677bd0fce83bae434b
 btt,ethereum,0xc669928185dbce49d2230cc9b0979be6dc797957
@@ -182,9 +187,11 @@ cos,,cos
 coti,,coti
 coti,bsc,0xadbaf88b39d37dc68775ed1541f1bf83a5a45feb
 coti,ethereum,0xddb3422497e61e13543bea06989c0789117555c5
+cre,cosmos,ucre
 cream,,cream
 cream,bsc,0xd4cb328a82bdf5f03eb737f37fa6b370aef3e888
 cream,ethereum,0x2ba592f78db6436527729929aaf6c908497cb200
+cro,cosmos,basecro
 cro,cro,cro
 cro,osmosis,ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1
 crv,,crv
@@ -244,6 +251,7 @@ drep,ethereum,0x3ab6ed69ef663bd986ee59205ccad8a20f98b4c2
 dusk,,dusk
 dusk,bsc,0xb2bd0749dbe21f623d9baba856d3b0f0e1bfec9c
 dusk,ethereum,0x940a2db1b7008b6c776d4faaca729d6d4a4aa551
+dvpn,cosmos,udvpn
 dvpn,osmosis,ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84
 dvpn,sentinel,dvpn
 dydx,,dydx
@@ -352,25 +360,32 @@ imx,,imx
 imx,ethereum,0xf57e7e7c23978c3caec3c3548e3d615c346e79ff
 inj,,inj
 inj,bsc,0xa2b726b1145a4773f68593cf171187d8ebe4d495
+inj,cosmos,inj
 inj,ethereum,0xe28b3b32b6c345a34ff64674606124dd5aceca30
+ion,cosmos,uion
 iost,,iost
 iota,,iota
 iotx,,iotx
 iotx,bsc,0x9678e42cebeb63f23197d726b29b1cb20d0064e5
 iotx,ethereum,0x6fb3e0a217407efff7ca062d46c26e5d60a14d69
+iov,cosmos,uiov
 iq,,iq
 iq,bsc,0x0e37d70b51ffa2b98b4d34a5712c5291115464e3
 iq,ethereum,0x579cea1889991f68acc35ff5c3dd0621ff29b0c9
 iq,polygon,0xb9638272ad6998708de56bbc0a290a1de534a578
+iris,cosmos,uiris
 iris,iris,iris
 iris,osmosis,ibc/7C4D60AA95E5A7558B0A364860979CA34B7FF8AAF255B87AF9E879374470CEC0
+ixo,cosmos,uixo
 jasmy,,jasmy
 jasmy,ethereum,0x7420b4b9a0110cdc71fb720908340c03f9bc03ec
 joe,,joe
 jpy,boj,jpy
 jst,,jst
+juno,cosmos,ujuno
 juno,juno,juno
 juno,osmosis,ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED
+kava,cosmos,ukava
 kava,kava,kava
 kda,,kda
 keep,,keep
@@ -395,6 +410,7 @@ ldo,ethereum,0x5a98fcbea516cf06857215779fd812ca3bef1b32
 ldo,polygon,0xc3c7d422809852031b44ab29eec9f1eff2a58756
 lever,,lever
 lever,ethereum,0x4b5f49487ea7b3609b1ad05459be420548789f1f
+like,cosmos,nanolike
 lina,,lina
 lina,bsc,0x762539b45a1dcce3d36d080f74d1aed37844b878
 lina,ethereum,0x3e9bc21c9b189c09df3ef1b824798658d5011937
@@ -467,6 +483,7 @@ neo,,neo
 nexo,,nexo
 nexo,ethereum,0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206
 nexo,polygon,0x41b3966b4ff7b427969ddf5da3627d6aeae9a48e
+ngm,cosmos,ungm
 nkn,,nkn
 nkn,ethereum,0x5cf04716ba20127f1e2297addcf4b5035000c9eb
 nmr,,nmr
@@ -502,6 +519,7 @@ op,,op
 orn,,orn
 orn,bsc,0xe4ca1f75eca6214393fce1c1b316c237664eaa8e
 orn,ethereum,0x0258f474786ddfd37abce6df6bbb1dd5dfc4434a
+osmo,cosmos,uosmo
 osmo,osmosis,osmo
 oxt,,oxt
 oxt,ethereum,0x4575f41308ec1483f3d399aa9a2826d74da13deb
@@ -566,6 +584,7 @@ ray,ethereum,0x5245c0249e5eeb2a0838266800471fd32adb1089
 reef,,reef
 reef,bsc,0xf21768ccbc73ea5b6fd3c687208a7c2def2d966e
 reef,ethereum,0xfe3e6a25e6b192a42a44ecddcd13796471735acf
+regen,cosmos,uregen
 regen,osmosis,ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076
 regen,regen,regen
 ren,,ren
@@ -587,6 +606,7 @@ rndr,polygon,0x61299774020da444af134c82fa83e3810b309991
 rose,,rose
 rose,bsc,0x6c6d604d3f07abe287c1a3df0281e999a83495c0
 rose,ethereum,0x26b80fbfc01b71495f477d5237071242e0d959d7
+rowan,cosmos,rowan
 rsr,,rsr
 rsr,ethereum,0x320623b8e4ff03373931769a31fc52a4e78b5d70
 rune,,rune
@@ -596,6 +616,7 @@ sand,,sand
 sand,ethereum,0x3845badade8e6dff049820680d1f14bd3903a5d0
 sand,polygon,0xbbba073c31bf03b8acf7c28ef0738decf3695683
 sc,,sc
+scrt,cosmos,uscrt
 scrt,osmosis,ibc/0954E1C28EB7AF5B72D24F3BC2B47BBB2FDF91BDDFD57B74B99E133AED40972A
 scrt,secret,scrt
 sfp,,sfp
@@ -693,6 +714,7 @@ uft,ethereum,0x0202be363b8a4820f3f4de7faf5224ff05943ab1
 uft,polygon,0x5b4cf2c120a9702225814e18543ee658c5f8631e
 uma,,uma
 uma,ethereum,0x04fa0d235c4abf4bcf4787af4cf447de572ef828
+umee,cosmos,uumee
 umee,osmosis,ibc/67795E528DF67C5606FC20F824EA39A6EF55BA133F4DC79C90A8C47A0901E17C
 umee,umee,umee
 unfi,,unfi
@@ -752,9 +774,11 @@ wtc,,wtc
 wtc,ethereum,0xb7cb1c96db6b22b0d3d9536e0108d062bd488f74
 xec,,xec
 xem,,xem
+xki,cosmos,uxki
 xlm,stellar,xlm
 xmr,,xmr
 xno,,xno
+xprt,cosmos,uxprt
 xrp,,xrp
 xrp,bsc,0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE
 xrpt,osmosis,ibc/A0CC0CF735BFB30E730C70019D4218A1244FF383503FF7579C9201AB93CA9293
