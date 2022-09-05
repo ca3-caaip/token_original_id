@@ -11,10 +11,6 @@ def sort_csv():
         [header_line, *body_lines] = file.read().strip().splitlines()
 
     updated = "\n".join([header_line, *sorted(body_lines)]) + "\n"
-    print(header_line)
-    print(body_lines)
-    print(updated)
-
     with csv_file.open(mode="w") as file:
         file.write(updated)
 
