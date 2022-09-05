@@ -22,3 +22,4 @@ jobs:
       - run: poetry config virtualenvs.in-project true && poetry install
         if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
       - run: poetry run pytest
+      - run: poetry run python scripts/sort_csv.py && git diff --name-only --exit-code
