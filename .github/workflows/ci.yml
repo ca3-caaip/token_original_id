@@ -1,0 +1,24 @@
+name: CI
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+      - run: curl -sSL https://install.python-poetry.org | python - --preview
+      - run: export PATH="$PATH:$HOME/.poetry/bin"
+      - id: cached-poetry-dependencies
+        uses: actions/cache@v3
+        with:
+          path: .venv
+          key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
+      - run: poetry config virtualenvs.in-project true && poetry install
+        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+      - run: poetry run pytest
