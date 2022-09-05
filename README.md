@@ -17,6 +17,14 @@ Install dependencies with poetry
 poetry config virtualenvs.in-project true && poetry install
 ```
 
+## Linting
+
+Run lint scripts before commit
+
+```sh
+poetry run python scripts/sort_csv.py && git diff --name-only --exit-code
+```
+
 ## Testing
 
 Run tests with pytest
