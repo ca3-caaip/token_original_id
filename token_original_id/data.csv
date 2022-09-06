@@ -142,7 +142,6 @@ bond,,bond
 bond,ethereum,0x0391d2021f89dc339f60fff84546ea23e337750f
 bsw,,bsw
 bsw,bsc,0x965f527d9159dce6288a2219db51fc6eef120dd1
-btc,,wbtc
 btc,bitcoin,btc
 btc,bsc,0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c
 btc,ethereum,0x2260fac5e5542a773aa44fbcfedf7c193bc2c599
@@ -541,7 +540,6 @@ nu,ethereum,0x4fe83213d56308330ec302a8bd641f1d0113a4cc
 nuls,,nuls
 nuls,bsc,0x8cd6e29d3686d24d3c2018cee54621ea0f89313b
 nuls,ethereum,0xa2791bdf2d5055cda4d46ec17f9f429568275047
-nxm,,wnxm
 nxm,ethereum,0x0d438f3b5175bebc262bf23753c1e53d03432bde
 nxs,,nxs
 oax,,oax
