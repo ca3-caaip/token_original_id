@@ -52,10 +52,10 @@ class TokenOriginalIdTable:
         else:
             if default_symbol is not None:
                 return (
-                    f"{default_symbol}/{urllib.parse.quote(token_original_id, safe='')}"
+                    f"{default_symbol.lower()}/{urllib.parse.quote(token_original_id.lower(), safe='')}"
                 )
             else:
-                return f"{urllib.parse.quote(token_original_id, safe='')}"
+                return f"{urllib.parse.quote(token_original_id.lower(), safe='')}"
 
     def get_symbol(
         self,
