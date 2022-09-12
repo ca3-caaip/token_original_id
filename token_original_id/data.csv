@@ -27,6 +27,8 @@ agix,ethereum,0x5b7533812759b45c2b44c19e320ba2cd2681b542
 agld,,agld
 agld,ethereum,0x32353a6c91143bfd6c7d363b546e62a9a2489a20
 aion,,aion
+akro,,akro
+akro,ethereum,0x8ab7404063ec4dbcfd4598215992dc3f8ec853d7
 akt,,akt
 akt,cosmos,ibc/2181AAB0218EAC24BC9F86BD1364FBBFA3E6E3FCC25E88E3E68C15DC6E752D86
 akt,osmosis,ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4
@@ -42,6 +44,8 @@ alpha,,alpha
 alpha,ethereum,0xa1faa113cbe53436df28ff0aee54275c13b40975
 alpine,,alpine
 alpine,bsc,0x287880ea252b52b63cc5f40a2d3e5a44aa665a76
+amb,ethereum,0x4dc3643dbc642b72c158e7f3d2ff232df61cb6ce
+amb,,amb
 amp,,amp
 amp,ethereum,0xff20817765cb7f73d4bde2e66e067e58d11095c2
 anc,,anc
@@ -59,6 +63,7 @@ ape,,ape
 ape,ethereum,0x4d224452801aced8b2f0aebe155379bb5d594381
 api3,,api3
 api3,ethereum,0x0b38210ea11411557c13457d4da7dc6ea731b88a
+appc,,appc
 ar,,ar
 ardr,,ardr
 ark,,ark
@@ -112,6 +117,8 @@ bch,,bch
 bch,bitbank,bcc
 bcn,,bcn
 bcna,cosmos,ibc/ADBEC1A7AC2FEF73E06B066A1C94DAB6C27924EF7EA3F5A43378150009620284
+bcpt,,bcpt
+bcpt,ethereum,0x1c4481750daa5ff521a2a7490d9981ed46465dbd
 bcre,cosmos,ibc/835EE9D00C35D72128F195B50F8A89EB83E5011C43EA0AA00D16348E2208FEBB
 beam,,beam
 bel,,bel
@@ -140,6 +147,8 @@ boba,boba,0xa18bF3994C0Cc6E3b63ac420308E5383f53120D7
 boba,ethereum,0x42bbfa2e77757c645eeaad1655e0911a7553efbc
 bond,,bond
 bond,ethereum,0x0391d2021f89dc339f60fff84546ea23e337750f
+brd,,brd
+brd,ethereum,0x558ec3152e2eb2174905cd19aea4e34a23de9ad6
 bsw,,bsw
 bsw,bsc,0x965f527d9159dce6288a2219db51fc6eef120dd1
 btc,,btc
@@ -294,6 +303,12 @@ etc,,etc
 etc,bsc,0x3d6545b08693dae087e957cb1180ee38b9e3c25e
 eth,,eth
 eth,bsc,0x2170Ed0880ac9A755fd29B2688956BD959F933F8
+evx,,evx
+evx,ethereum,0xf3db5fa2c66b7af3eb0c0b782510816cbe4813b8
+ez,,ez
+ez,bsc,0x5512014efa6cd57764fa743756f7a6ce3358cc83
+ez,ethereum,0x00aba6fe5557de1a1d565658cbddddf7c710a1eb
+ez,polygon,0x34c1b299a74588d6abdc1b85a53345a48428a521
 farm,,farm
 farm,bsc,0x4b5c23cac08a567ecf0c1ffca8372a45a5d33743
 farm,ethereum,0xa0246c9032bc3a600820415ae600c6388619a14d
@@ -363,6 +378,9 @@ gtc,,gtc
 gtc,ethereum,0xde30da39c46104798bb5aa3fe8b9e0e1f348163f
 gto,,gto
 gto,ethereum,0xc5bbae50781be1669306b9e001eff57a2957b09d
+gvt,,gvt
+gvt,bsc,0xf25868b9e9c62f12192650ac668a2aa69f965f44
+gvt,ethereum,0x103c3a209da59d3e7c4a89307e66521e081cfdf0
 hard,,hard
 hbar,,hbar
 hc,,hc
@@ -520,6 +538,7 @@ nas,ethereum,0x5d65d971895edc438f465c17db6992698a52318d
 nav,,nav
 nav,bsc,0xbfef6ccfc830d3baca4f6766a0d4aaa242ca9f3d
 nbs,,nbs
+ncash,,ncash
 near,,near
 near,bsc,0x1fa4a73a3f0133f0025378af00236f3abdee5d63
 nebl,,nebl
@@ -568,6 +587,8 @@ orn,bsc,0xe4ca1f75eca6214393fce1c1b316c237664eaa8e
 orn,ethereum,0x0258f474786ddfd37abce6df6bbb1dd5dfc4434a
 osmo,,osmo
 osmo,cosmos,ibc/14F9BC3E44B8A9C1BE1FB08980FAB87034C9905EF17CF2F5008FC085218811CC
+ost,,ost
+ost,ethereum,0x2c4e8f2d746113d0696ce89b35f0d8bf88e0aeca
 oxt,,oxt
 oxt,ethereum,0x4575f41308ec1483f3d399aa9a2826d74da13deb
 paxg,,paxg
@@ -652,6 +673,7 @@ reef,ethereum,0xfe3e6a25e6b192a42a44ecddcd13796471735acf
 regen,,regen
 regen,cosmos,ibc/1FBDD58D438B4D04D26CBFB2E722C18984A0F1A52468C4F42F37D102F3D3F399
 regen,osmosis,ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076
+rei,,rei
 ren,,ren
 ren,ethereum,0x408e41876cccdc0f92210600ef50372656052a38
 renbtc,,renbtc
@@ -700,6 +722,7 @@ skeb,,skeb
 skeb,ethereum,0x6D614686550B9E1c1DF4b2cD8f91C9D4df66C810
 skl,,skl
 skl,ethereum,0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7
+sky,,sky
 slp,,slp
 slp,bsc,0x070a08beef8d36734dd67a491202ff35a6a16d97
 slp,ethereum,0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25
@@ -735,6 +758,9 @@ stpt,,stpt
 stpt,ethereum,0xde7d85157d9714eadf595045cc12ca4a5f3e2adb
 strax,,strax
 strax,ethereum,0xa3c22370de5f9544f0c4de126b1e46ceadf0a51b
+stx,,stx
+sub,,sub
+sub,ethereum,0x8d75959f1e61ec2571aa72798237101f084de63a
 sun,,sun
 super,,super
 super,bsc,0x51ba0b044d96c3abfca52b64d733603ccc4f0d4d
@@ -836,6 +862,8 @@ vgx,ethereum,0x3c4b6e6e1ea3d4863700d7f76b36b7f3d3f13e3d
 via,,via
 vib,,vib
 vib,ethereum,0x2c974b2d0ba1716e644c1fc59982a89ddd2ff724
+vibe,,vibe
+vibe,ethereum,0xe8ff5c9c75deb346acac493c463c8950be03dfba
 vidt,,vidt
 vidt,bsc,0x3f515f0a8e93f2e2f891ceeb3db4e62e202d7110
 vidt,ethereum,0xfef4185594457050cc9c23980d301908fe057bb1
@@ -859,12 +887,16 @@ win,bsc,0xaef0d72a118ce24fee3cd1d43d383897d05b4e99
 wing,,wing
 wing,bsc,0x3cb7378565718c64ab86970802140cc48ef1f969
 wing,ethereum,0xdb0f18081b505a7de20b18ac41856bcb4ba86a1a
+wings,,wings
+wings,ethereum,0x667088b212ce3d06a1b553a7221e1fd19000d9af
 wnxm,,wnxm
 wnxm,ethereum,0x0d438f3b5175bebc262bf23753c1e53d03432bde
 woo,,woo
 woo,bsc,0x4691937a7508860f876c9c0a2a617e7d9e945d4b
 woo,ethereum,0x4691937a7508860f876c9c0a2a617e7d9e945d4b
 woo,polygon,0x1b815d120b3ef02039ee11dc2d33de7aa4a8c603
+wpr,,wpr
+wpr,ethereum,0x4cf488387f035ff08c371515562cba712f9015d4
 wrx,,wrx
 wrx,bsc,0x8e17ed70334c87ece574c9d537bc153d8609e2a3
 wrx,polygon,0x72d6066f486bd0052eefb9114b66ae40e0a6031a
