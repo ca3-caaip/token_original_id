@@ -188,6 +188,7 @@ btc,,btc
 btc,bsc,0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c
 btc,ethereum,0x2260fac5e5542a773aa44fbcfedf7c193bc2c599
 btc,polygon,0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6
+btcb,,btcb
 btcb,bsc,0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c
 btcst,,btcst
 btcst,bsc,0x78650b139471520656b9e7aa7a5e9276814a38e9
@@ -462,6 +463,7 @@ gvt,bsc,0xf25868b9e9c62f12192650ac668a2aa69f965f44
 gvt,ethereum,0x103c3a209da59d3e7c4a89307e66521e081cfdf0
 hard,,hard
 hbar,,hbar
+hbtc,,hbtc
 hc,,hc
 hegic,,hegic
 hegic,ethereum,0x584bc13c7d411c00c01a62e8019472de68768430
@@ -1102,7 +1104,8 @@ xprt,ethereum,0xae837eacbae2a6ba166ce0ded5c72340f212835c
 xprt,osmosis,ibc/A0CC0CF735BFB30E730C70019D4218A1244FF383503FF7579C9201AB93CA9293
 xprt,polygon,0xb3b9c016ad1e9f7efdae451b04ef696e05658b32
 xrp,,xrp
-xrp,bsc,0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE
+xrpb,,xrpb
+xrpb,bsc,0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE
 xtz,,xtz
 xtz,bsc,0x16939ef78684453bfdfb47825f8a5f714f12623a
 xvg,,xvg
