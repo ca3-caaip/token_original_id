@@ -1,6 +1,6 @@
 import csv
 import urllib.parse
-from typing import Union
+from typing import Union, Any
 from os import path
 from pathlib import Path
 
@@ -11,13 +11,13 @@ class TokenOriginalIdTable:
         with csv_file.open() as content:
             csv_reader = csv.DictReader(content.read().strip().splitlines())
             token_original_id_table = [row for row in csv_reader]
-            self.token_original_id_table = token_original_id_table
+            self.token_original_id_table: list[dict[str, Any]] = token_original_id_table
 
     def get_all_meta_data(
         self,
         platform: str,
         token_original_id: str,
-    ) -> Union[dict, None]:
+    ) -> Union[dict[str, Any], None]:
         object_token = list(
             filter(
                 lambda x: x["original_id"].lower() == token_original_id.lower()
@@ -45,7 +45,7 @@ class TokenOriginalIdTable:
         platform: str,
         token_original_id: str,
         default_symbol: Union[str, None] = None,
-    ) -> Union[str, None]:
+    ) -> str:
         meta_data = self.get_all_meta_data(platform, token_original_id)
         if meta_data is not None:
             return meta_data["uti"]
