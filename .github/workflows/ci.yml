@@ -15,7 +15,6 @@ jobs:
       - run: curl -sSL https://install.python-poetry.org | python - --preview
       - run: export PATH="$PATH:$HOME/.poetry/bin"
       - run: poetry config virtualenvs.in-project true && poetry install
-        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
       - run: poetry run pytest
       - run: poetry run python scripts/sort_csv.py && poetry run python scripts/lint_address.py && git diff --name-only --exit-code
       - run: poetry run python scripts/check_csv.py
