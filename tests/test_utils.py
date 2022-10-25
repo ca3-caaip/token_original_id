@@ -1,5 +1,5 @@
 import pytest
-from token_original_id.utils import sort_lines, check_whitespaces, check_duplication, check_value_format
+from token_original_id.utils import sort_lines, check_whitespaces, check_duplication, check_value_format, lint_address
 
 
 def test_sort_lines():
@@ -17,6 +17,20 @@ def test_sort_lines():
         "eth,bsc,0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
     ]
 
+def test_lint_address():
+    assert lint_address([
+        "uti,platform,original_id",
+        "btc,,BTC",
+        "eth,,ETH",
+        "btc,bsc,0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "eth,bsc,0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+    ]) == [
+        "uti,platform,original_id",
+        "btc,,btc",
+        "eth,,eth",
+        "btc,bsc,0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+        "eth,bsc,0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+    ]
 
 def test_check_whitespaces():
     with pytest.raises(Exception) as e:

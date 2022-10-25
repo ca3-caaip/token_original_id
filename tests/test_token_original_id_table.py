@@ -8,7 +8,7 @@ class TestTokenOriginalIdTable(unittest.TestCase):
         token_original_id_table = TokenOriginalIdTable()
         metadata = token_original_id_table.get_all_meta_data(
             "osmosis",
-            "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+            "ibc/27394fb092d2eccd56123c74f36e4c1f926001ceada9ca97ea622b25f41e5eb2",
         )
         if metadata is None:
             assert False
@@ -16,12 +16,12 @@ class TestTokenOriginalIdTable(unittest.TestCase):
         assert metadata["platform"] == "osmosis"
         assert (
             metadata["original_id"]
-            == "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+            == "ibc/27394fb092d2eccd56123c74f36e4c1f926001ceada9ca97ea622b25f41e5eb2"
         )
 
         metadata = token_original_id_table.get_all_meta_data(
             "osmosis",
-            "ibc/27394FB092D2ECCD56123C74F36e4C1F926001CEADA9CA97EA622b25F41E5EB2",
+            "ibc/27394fb092d2eccd56123c74f36e4c1f926001ceada9ca97ea622b25f41e5eb2",
         )
         if metadata is None:
             assert False
@@ -29,14 +29,14 @@ class TestTokenOriginalIdTable(unittest.TestCase):
         assert metadata["platform"] == "osmosis"
         assert (
             metadata["original_id"]
-            == "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+            == "ibc/27394fb092d2eccd56123c74f36e4c1f926001ceada9ca97ea622b25f41e5eb2"
         )
 
     def test_get_uti_exist(self):
         token_original_id_table = TokenOriginalIdTable()
         uti = token_original_id_table.get_uti(
             "osmosis",
-            "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+            "ibc/27394fb092d2eccd56123c74f36e4c1f926001ceada9ca97ea622b25f41e5eb2",
         )
         assert uti == "atom"
 
@@ -61,6 +61,6 @@ class TestTokenOriginalIdTable(unittest.TestCase):
         token_original_id_table = TokenOriginalIdTable()
         symbol = token_original_id_table.get_symbol(
             "osmosis",
-            "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+            "ibc/27394fb092d2eccd56123c74f36e4c1f926001ceada9ca97ea622b25f41e5eb2",
         )
         assert symbol == "atom"

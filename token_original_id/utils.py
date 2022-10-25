@@ -16,6 +16,15 @@ def sort_lines(csv_lines: list[str]) -> list[str]:
     [header_line, *body_lines] = csv_lines
     return [header_line, *sorted(body_lines)]
 
+def lint_address(csv_lines: list[str]) -> list[str]:
+    [header_line, *body_lines] = csv_lines
+    res = [header_line]
+    for body_line in body_lines:
+        s = body_line.split(",")
+        s[2] = s[2].lower()
+        res.append(",".join(s))
+    return res
+
 
 def check_whitespaces(csv_lines: list[str]) -> None:
     for idx, line in enumerate(csv_lines):
