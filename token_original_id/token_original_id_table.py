@@ -20,7 +20,7 @@ class TokenOriginalIdTable:
     ) -> Union[dict[str, Any], None]:
         object_token = list(
             filter(
-                lambda x: x["original_id"].lower() == token_original_id.lower()
+                lambda x: self.__is_same_original_id(token_original_id, x)
                 and x["platform"].lower() == platform.lower(),
                 self.token_original_id_table,
             )
@@ -29,7 +29,7 @@ class TokenOriginalIdTable:
         if len(object_token) == 0:
             object_token = list(
                 filter(
-                    lambda x: x["original_id"].lower() == token_original_id.lower()
+                    lambda x: self.__is_same_original_id(token_original_id, x)
                     and "/" not in x["uti"],
                     self.token_original_id_table,
                 )
@@ -52,10 +52,10 @@ class TokenOriginalIdTable:
         else:
             if default_symbol is not None:
                 return (
-                    f"{default_symbol.lower()}/{urllib.parse.quote(token_original_id.lower(), safe='')}"
+                    f"{default_symbol.lower()}/{urllib.parse.quote((token_original_id.lower() if platform != 'solana' else token_original_id), safe='')}"
                 )
             else:
-                return f"{urllib.parse.quote(token_original_id.lower(), safe='')}"
+                return f"{urllib.parse.quote((token_original_id.lower() if platform != 'solana' else token_original_id), safe='')}"
 
     def get_symbol(
         self,
@@ -68,3 +68,13 @@ class TokenOriginalIdTable:
             return symbol
         else:
             return None
+    
+    def __is_same_original_id(
+        self,
+        token_original_id: str,
+        token_original_id_table_row: dict[str, Any]
+    ) -> bool:
+        if token_original_id_table_row['platform'] == 'solana':
+            return token_original_id_table_row['original_id'] == token_original_id
+        else:
+            return token_original_id_table_row['original_id'].lower() == token_original_id.lower()

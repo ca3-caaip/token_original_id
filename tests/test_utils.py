@@ -7,6 +7,7 @@ def test_sort_lines():
         "uti,platform,original_id",
         "btc,,btc",
         "eth,,eth",
+        "sol,,sol",
         "btc,bsc,0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
         "eth,bsc,0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
     ]) == [
@@ -15,6 +16,7 @@ def test_sort_lines():
         "btc,bsc,0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
         "eth,,eth",
         "eth,bsc,0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "sol,,sol",
     ]
 
 def test_lint_address():
@@ -22,14 +24,18 @@ def test_lint_address():
         "uti,platform,original_id",
         "btc,,BTC",
         "eth,,ETH",
+        "sol,,SOL",
         "btc,bsc,0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
         "eth,bsc,0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "usdt,solana,Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
     ]) == [
         "uti,platform,original_id",
         "btc,,btc",
         "eth,,eth",
+        "sol,,sol",
         "btc,bsc,0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
         "eth,bsc,0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+        "usdt,solana,Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
     ]
 
 def test_check_whitespaces():
