@@ -22,8 +22,7 @@ poetry config virtualenvs.in-project true && poetry install
 Run lint scripts before commit
 
 ```sh
-poetry run python scripts/sort_csv.py && git diff --name-only --exit-code
-poetry run python scripts/check_csv.py
+poetry run python scripts/sort_csv.py && poetry run python scripts/lint_address.py && git diff --exit-code
 ```
 
 ## Testing
