@@ -768,6 +768,8 @@ pivx,,pivx
 pla,,pla
 pla,ethereum,0x3a4f40631a4f906c2bad353ed06de7a5d3fcb430
 pla,polygon,0x8765f05adce126d70bcdf1b0a48db573316662eb
+plt,,plt
+plt,ethereum,0x0944D5848BD9F60A34Ba92aEa300d4286696Eb76
 pnt,,pnt
 pnt,bsc,0xdaacb0ab6fb34d24e8a67bfa14bf4d95d4c7af92
 pnt,ethereum,0x89ab32156e46f46d02ade3fecbe5fc4243b9aaed
@@ -1150,5 +1152,3 @@ zil,,zil
 zil,bsc,0xb86abcb37c3a4b64f74f59301aff131a1becc787
 zrx,,zrx
 zrx,ethereum,0xe41d2489571d322189246dafa5ebde1f4699f498
-plt,,
-plt,ethereum,0x0944D5848BD9F60A34Ba92aEa300d4286696Eb76
