@@ -937,7 +937,8 @@ stars,bsc,0xbd83010eb60f12112908774998f65761cf9f6f9a
 stars,ethereum,0xc55c2175e90a46602fd42e931f62b3acc1a013ca
 steem,,steem
 step,,step
-step,bsc,0x465707181acba42ed01268a33f0507e320a154bd
+step,solana,StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT
+step/step,bsc,0x465707181acba42ed01268a33f0507e320a154bd
 steth,,steth
 steth,ethereum,0xae7ab96520de3a18e5e111b5eaab095312d7fe84
 stg,,stg
