@@ -524,6 +524,11 @@ jasmy,ethereum,0x7420b4b9a0110cdc71fb720908340c03f9bc03ec
 jet,,jet
 joe,,joe
 jpy,,jpy
+jpyc,,jpyc
+jpyc,astar_evm,0x431d5dff03120afa4bdf332c61a6e1766ef37bdb
+jpyc,ethereum,0x431d5dff03120afa4bdf332c61a6e1766ef37bdb
+jpyc,polygon,0x431d5dff03120afa4bdf332c61a6e1766ef37bdb
+jpyc,polygon,0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c
 jst,,jst
 juno,,juno
 juno,cosmos,ibc/cdab23da5495290063363bd1c3499e26189036302dc689985a7e23f8df8d8db0
