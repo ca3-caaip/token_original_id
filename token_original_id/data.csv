@@ -142,6 +142,9 @@ bat,,bat
 bcd,,bcd
 bch,,bch
 bch,bitbank,bcc
+bch,bsc,0x8ff795a6f4d97e7887c79bea79aba5cc76444adf
+bch,ethereum,0x459086f2376525bdceba5bdda135e4e9d3fef5bf
+bch,ethereum,0x85c4edc43724e954e5849caaab61a26a9cb65f1b
 bcn,,bcn
 bcna,cosmos,ibc/adbec1a7ac2fef73e06b066a1c94dab6c27924ef7ea3f5a43378150009620284
 bcpt,,bcpt
@@ -428,6 +431,8 @@ gala,bsc,0x7ddee176f665cd201f93eede625770e2fd911990
 gala,ethereum,0x15d4c048f83bd7e37d49ea4c83a07267ec4203da
 gari,,gari
 gas,,gas
+gcake,bsc,0x61d5822dd7b3ed495108733e6550d4529480c8f6
+gcake,ethereum,0x5f944b0c4315cb7c3a846b025ab4045da44abf6c
 gene,,gene
 gene,bsc,0x9df465460938f9ebdf51c38cc87d72184471f8f0
 ghst,,ghst
