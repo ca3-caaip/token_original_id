@@ -1,4 +1,7 @@
 uti,platform,original_id
+10set,,10set
+10set,bsc,0x1ae369a6ab222aff166325b7b87eb9af06c86e57
+10set,ethereum,0x7ff4169a6b5122b664c51c95727d87750ec07c84
 1inch,,1inch
 1inch,bsc,0x111111111117dc0aa78b770fa6a738034120c302
 1inch,ethereum,0x111111111117dc0aa78b770fa6a738034120c302
@@ -900,6 +903,8 @@ scrt,cosmos,ibc/1542f8dc70e7999691e991e1edeb1b47e65e3a217b1649d347098ee48acb580f
 scrt,osmosis,ibc/0954e1c28eb7af5b72d24f3bc2b47bbb2fdf91bddfd57b74b99e133aed40972a
 sdn,,sdn
 sdn,astar_evm,0x75364d4f779d0bd0facd9a218c67f87dd9aff3b4
+sfm,,sfm
+sfm,bsc,0x42981d0bfbaf196529376ee702f2a9eb9092fcb5
 sfp,,sfp
 sfp,bsc,0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb
 shdw,,shdw
