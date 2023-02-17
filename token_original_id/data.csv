@@ -331,6 +331,8 @@ dodo,ethereum,0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd
 dodo,polygon,0xe4bf2864ebec7b7fdf6eeca9bacae7cdfdaffe78
 doge,,doge
 doge,bsc,0xba2ae424d960c26247dd6c32edc70b295c744c43
+dome,,dome
+dome,bsc,0x475bfaa1848591ae0e6ab69600f48d828f61a80e
 dot,,dot
 dot,astar_evm,0xffffffffffffffffffffffffffffffffffffffff
 dot,bsc,0x7083609fce4d1d8dc0c979aab8c869ea2c873402
